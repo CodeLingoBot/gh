@@ -12,7 +12,7 @@ import (
 	"runtime"
 )
 
-// NAME
+// TaskInstallDeps: NAME
 //    install-deps - install dependencies with go get
 //
 // DESCRIPTION
@@ -31,7 +31,7 @@ func TaskInstallDeps(t *tasking.T) {
 	}
 }
 
-// NAME
+// TaskPackage: NAME
 //    package - cross compile gh and package it
 //
 // DESCRIPTION
@@ -86,7 +86,7 @@ func TaskPackage(t *tasking.T) {
 	}
 }
 
-// NAME
+// TaskBottle: NAME
 //    bottle - build homebrew bottle for gh
 //
 // DESCRIPTION
@@ -127,7 +127,7 @@ func TaskBottle(t *tasking.T) {
 	}
 }
 
-// NAME
+// TaskCrossCompile: NAME
 //    cross-compile - cross-compiles gh for current platform.
 //
 // DESCRIPTION

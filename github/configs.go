@@ -213,7 +213,7 @@ func (c *Configs) Save() error {
 	return saveTo(configsFile(), c)
 }
 
-// Public for testing purpose
+// CreateTestConfigs: Public for testing purpose
 func CreateTestConfigs(user, token string) *Configs {
 	f, _ := ioutil.TempFile("", "test-config")
 	defaultConfigsFile = f.Name()
